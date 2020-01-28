@@ -1,0 +1,18 @@
+Setup:
+
+-> npm i express dotenv cors mongoose
+-> npm i -D eslint prettier typescript sucrase commitizen nodemon 
+-> npm i -D @types/express @types/cors @types/mongoose
+[** sucrase ou ts-node..]
+
+-> * add: .gitignore
+-> git init
+-> npx commitizen init cz-conventional-changelog --yarn --dev --exact
+-> * add: package scripts commit
+
+-> npx eslint --init
+-> * add: package scripts dev
+-> * add: tsconfig.json
+-> * add: .prettierrc
+
+-> * add: mkdir src/{app, domain, infra/data}
